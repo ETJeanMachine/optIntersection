@@ -95,7 +95,7 @@ namespace optIntersection {
         /// all tasks to finish, then exits out.
         /// </summary>
         /// <param name="args">Command line arguments; unused.</param>
-        public static void Main(string[] args) {
+        public static void Main2(string[] args) {
             GenerateQueue(1000);
             Task.Run(StartTrafficSignal);
             List<Task> carsToGo = new List<Task>();
